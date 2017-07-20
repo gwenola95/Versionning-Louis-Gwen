@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
-	Dimension by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Louis-Gwen by Nous <3 best team ever <3
+	
+	
 */
 
 /* Reset */
@@ -1622,16 +1622,3 @@
    		 height: 100%;
 	}
 
-.toy{
-   
-
-     /* Set a specific height */
-     height: 500px;
-
-     /* Create the parallax scrolling effect */
-     background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
-     height: 100%;
- }}
