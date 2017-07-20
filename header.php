@@ -6,10 +6,18 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<style>
-		#bg:after {background-image: url("<?php header_image(); ?>");}
-		</style>
+		<style class="toy">
+		#bg:after {background-image: url("wp-content/themes/versionning-Louis-Gwen/images/toy.png");height: 500px;
+
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 100%;}
 		
+		</style>
+
 		<?php wp_head(); ?>
 	</head>
 	<body>
